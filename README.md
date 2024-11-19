@@ -9,4 +9,5 @@ This parameter is used to find the time in the waveform where the waveform reach
 ### Rising Edge Slope
 This parameter is used to find the slope of the rising edge of the energy. This is important because in multi-site events there is a smaller slope because of the second deposit of energy. This was done through fitting a line to the waveform and extracting the slope as a parameter.
 ### Inflection Points
-This parameter is used to find the number of inflection points in our data. This was done using 
+This parameter is used to find the number of inflection points in our data. This was done using numpy gradient twice to find the second derivative Then I used np.sign to find the signs of the second derivative. This is because when the second derivative changes sign it is an inflection point. So I used np.diff to subtract the neighboring values and find where the values were either 2 or -2 and these would be the inflection points. 
+### Area Growth Rate
