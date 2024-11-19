@@ -11,3 +11,4 @@ This parameter is used to find the slope of the rising edge of the energy. This 
 ### Inflection Points
 This parameter is used to find the number of inflection points in our data. This was done using numpy gradient twice to find the second derivative Then I used np.sign to find the signs of the second derivative. This is because when the second derivative changes sign it is an inflection point. So I used np.diff to subtract the neighboring values and find where the values were either 2 or -2 and these would be the inflection points. 
 ### Area Growth Rate
+The Area growth rate is used to find the area growth from after 80% of the peak energy subtracted from the area growth if the energy remained at the peak. This was done by multiplying the amount of data points from the 80% of the peak to the end by the peak value and then adding add the values from the peak to the tail. Then subtracting the peak area from the area of the growth from the 80% of the value.
