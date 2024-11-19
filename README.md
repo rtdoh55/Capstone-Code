@@ -16,3 +16,5 @@ ___
 # Parameter Extraction
 ### Objective:
 The main objective of this was to gather all the parameter extraction codes from all the group members and use them in a couple of lines to extract the parameters from each of our data files. This wsa then stored in a dataframe and uploaded to a csv file that could be used for training our models.
+### Process and Code
+The process used to extract all the parameters from each waveform was to use list comprehension and loops to apply each parameter extraction to each waveform. This would allow us to extract each pararmeter into a numpy array and then add the numpy array to a dataframe column
