@@ -1,4 +1,6 @@
 # Capstone-Code
+#### Data:
+Example data is included in the data folder and the original files were downloaded from https://zenodo.org/records/8257027
 #### Objective:
 The main objective of my code was to create functions that could be universally used for any waveform in this format to extract these parameters. These parameters would be used in our machine learning model to help determine which of these events are multi-site and which are single-site events.
 ___
