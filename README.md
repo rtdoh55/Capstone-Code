@@ -4,7 +4,7 @@ Example data is included in the data folder and the original files were download
 # Objective:
 The main objective of my code was to create functions that could be universally used for any waveform in this format to extract these parameters. These parameters would be used in our machine learning model to help determine which of these events are multi-site and which are single-site events.
 # Prerequisites:
-'''bash
+```bash
 pip install -r requirements.txt
 ___
 # Four parameters were extracted: Time Drift 10, Rising Edge slope, Inflection points, and LQ80 area growth rate
