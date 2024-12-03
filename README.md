@@ -6,6 +6,7 @@ The main objective of my code was to create functions that could be universally 
 # Prerequisites:
 ```bash
 pip install -r requirements.txt
+```
 ___
 # Four parameters were extracted: Time Drift 10, Rising Edge slope, Inflection points, and LQ80 area growth rate
 Descriptions of how these parameters were extracted and their significance are included in our report.
