@@ -1,25 +1,5 @@
 # Capstone-Code
 ### \( LQ80 \) Formula
-
-Let:
-- \( W(t) \) represent the waveform as a function of time \( t \),
-- \( TP80 \) be the time point where 80% of the total charge is reached,
-- \( C(t) \) be the cumulative charge up to time \( t \), defined as:
-
-\[
-C(t) = \int_{0}^{t} W(t') \, dt'
-\]
-
-The time \( TP80 \) satisfies:
-
-\[
-C(TP80) = 0.8 \cdot C(T_{\text{total}})
-\]
-
-where \( T_{\text{total}} \) is the total duration of the waveform.
-
-The charge after \( TP80 \) is:
-
 \[
 LQ80 = \int_{TP80}^{T_{\text{total}}} W(t) \, dt
 \]
