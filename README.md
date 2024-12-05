@@ -1,9 +1,4 @@
 # Capstone-Code
-### \( LQ80 \) Formula
-\[
-LQ80 = \int_{TP80}^{T_{\text{total}}} W(t) \, dt
-\]
-
 # Context:
 Neutrino particles are subatomic particles without any charge that are very hard to detect and are naturally produced. By studying the neutrino, we can gain insight into a type of physics that goes beyond the standard model, giving significance to these seemingly insignificant particles. These neutrinos occur through a beta decay which is where 2 neutrons decay and produce 2 protons, 2 electrons, and 2 neutrinos. Using High purity germanium detectors scientists were able to measure the charge being released from this beta decay. We're interested in a double beta decay (a hypothesized decay), which is where a neutrino decays into 2 protons, 2 electrons, and no neutrinos which would indicate that neutrinos are their own antiparticles. This is done by measuring the charge through a time series. This would allow us to see if there are charge deposits in one or multiple sites. Originially the standard way of discovering multi-site or single site events was done through an arduous physics process. Our job is to using a machine learning model to predict features that would allow us to differentiate between single and multi site events. This would save time and help the forward progression of the discovery of these particles.
 ![decay](img/decay.jpg)
